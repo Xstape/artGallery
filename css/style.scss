@@ -21,6 +21,16 @@ header {
     height: 120px;
     background-image: url("../img/heaader_bg.jpg");
     background-size: cover;
+    .logo_name {
+        display: block;
+        height: 120px;
+        line-height: 120px;
+        font-size: 172px;
+        position: absolute;
+        color: #581d01;
+        mix-blend-mode: hard-light;
+        opacity: 0.2;
+    }
 }
 h1 {
     font-size: 50px;
@@ -55,6 +65,9 @@ h1 {
             width: 380px;
             height: 380px;
             background-color: #333;
+            img {
+                width: 100%;
+            }
         }
     }
 }

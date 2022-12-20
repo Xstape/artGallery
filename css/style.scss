@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 
-    --main-color: #2f363e;
+    --main-color: #A14116;
     --bg-color: #000;
 }
 
@@ -42,7 +42,7 @@ h1 {
 }
 .mailLink {
     font-size: 26px;
-    color: #000;
+    color: var(--main-color);
     font-weight: 400;
     text-decoration: none;
 }
@@ -108,5 +108,23 @@ h1 {
                 height: 300px;
             }
         }
+    }
+}
+
+.contacts {
+    &_bg {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        img {
+            max-width: 80vw;
+            max-height: 70vh;
+        }
+    }
+    &_mailLink {
+        display: block;
+        margin-top: 34px;
+        font-size: 34px;
     }
 }
